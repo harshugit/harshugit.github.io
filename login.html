@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title></title>
+<link rel="stylesheet" href="loginstyle.css">
+</head>
+<body>
+<div>
+<div class="header">
+<h2>User Login In</h2>
+</div>
+<form name="signform" action = "loginAction.jsp"  method="post">
+
+<label for="userValue">User:</label>
+<input type="radio" name="userValue" id="teacher" value="teacher">
+<label for="teacher">Teacher</label>
+<input type="radio" name="userValue" id="student" value="student">
+<label for="student">Student</label>
+<br><br>
+
+<label for="email" >Email id:</label>
+<input type="text" id="emailid" name="email" placeholder="Enter your email id">
+<br><br>
+
+<label for="password">Enter password:</label>
+<input type="password" id="password" name="epassword" placeholder="Enter your password">
+
+<br><br>
+
+<input type="submit" value="Sign up">
+
+<hr>
+ <p>Don't have an account? <a href="reg.html">Register</a>.</p>
+
+</form>
+</div>
+</body>
+</html>
